@@ -1,10 +1,4 @@
-# What is Machine Lerning
-
-https://www.coursera.org/learn/machine-learning/
-
-スタンフォード大学のAndrew Ng先生がやっているオンライン講座。
-課金すると修了証が出るらしいよ。
-
+# Week1
 
 # Introduction
 ## What is Machine Lerning
