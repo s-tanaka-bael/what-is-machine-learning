@@ -18,6 +18,23 @@
 > それを展開すると上図のようになる。<br>
 > θを転置してxのデータセットと乗算すると最初の式を簡略化した物と同じだし、見通しが良い。
 
+## Gradient Descent For Multiple Variables(多変量の最急降下法)
+
+![multivariate_j](img/multivariate_j.png)
+> こうなので
+
+![multivariate_j](img/multivariate_j2.png)
+> こういうこと
+
+
+## Gradient Descent in Practice I - Feature Scaling
+
+* 多変量の最急降下法を扱うときのコツ
+* 各変数が取りうる値の幅をできるだけ揃えておくと収束が早くなる
+* 揃っていないと、等高線がいびつになり、局所的な最適解を見つけづらいため
+* 具体的にはその変数の最大数で割って比率(0-1)の値に丸めといてやる(例では0-1の間にしてたけど、-1〜1の値にするのが一般的だとか)
+* 他にもノーマライズする方法もあり、(x-平均値)÷最大値とする
+
 
 
 
